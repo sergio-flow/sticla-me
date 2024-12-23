@@ -1,0 +1,89 @@
+.homepage {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  position: relative;
+  z-index: 2; */
+}
+
+.header {
+  position: absolute;
+  display: table;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  /* padding-left: 240px; */
+  align-items: center;
+}
+
+
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+  background: #fff;
+  padding: 5px 10px;
+  border-radius: 100px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.logo span {
+  color: #65dc5f
+}
+
+.description {
+  font-size: 26px;
+  line-height: 36px;
+  color: #fff;
+  max-width: 600px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-weight: 500;
+}
+
+.joinWaitlistButton {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 1rem;
+  padding: 10px 20px;
+  background-color: #4DAF48;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 14px;
+  padding: 20px 30px;
+  border-radius: 100px;
+  text-decoration: none;
+}
+
+.joinWaitlistButton:hover {
+  background-color: #2ecc71;
+}
+
+@media (max-width: 800px) {
+  .logo {
+      margin: 0;
+  }
+  .header {
+      flex-direction: column;
+  }
+}
